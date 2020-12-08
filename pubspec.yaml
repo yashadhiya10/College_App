@@ -1,0 +1,84 @@
+name: svuce_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # for os-specific path directory
+  path_provider: ^1.6.7
+
+  # Hive
+  hive: ^1.4.3
+  hive_flutter: ^0.3.0+2
+
+  # state management
+  stacked: ^1.4.3
+
+  # third party usable services
+  stacked_services: ^0.3.3
+
+  # navigationh
+  auto_route: null
+
+  # inversion of control
+  injectable: ^0.4.0+1
+  get_it: ^4.0.2
+
+  # firebase
+  cloud_firestore: ^0.13.4+2
+  firebase_auth: null
+  firebase_messaging: ^6.0.13
+  firebase_storage: ^3.1.1
+
+  # icons
+  eva_icons_flutter: ^2.0.0
+  flutter_icons: ^1.0.0+1
+
+  # main utilities
+  image_picker: ^0.6.3+1
+  http: ^0.12.1
+  table_calendar: ^2.2.3
+  firebase_dynamic_links: ^0.5.3
+  share: ^0.6.4+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # generators
+  hive_generator: ^0.7.1
+  build_runner: null
+  auto_route_generator: null
+  injectable_generator: null
+
+  # for models
+  freezed: ^0.10.9
+  json_serializable: ^3.3.0
+
+  # testing
+  mockito: null
+  cloud_firestore_mocks: null
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/illustrations/hexagon_pattern.jpg
+    - assets/illustrations/asteroid_pattern.png
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-Regular.ttf
+          weight: 400
+
