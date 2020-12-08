@@ -1,6 +1,7 @@
 # Project
 
-This is the flutter project of the SVUCE College App. The SVU College App is the bridge between student and college. It is the one stop solution for all the queries beyond and above.
+This is the flutter project 
+
 
 ## Screenshots
 |                                                                                                                          |                                                                                                                         |                                                                                                                        |                                                                                                                        |                                                                                                                  |
